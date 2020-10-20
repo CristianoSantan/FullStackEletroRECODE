@@ -61,6 +61,12 @@ header h2 {
     background-size: 100%;
     padding-left: 50px;
 }
+.telas {
+    margin-top: 70px;
+}
+.telas img {
+    width: 40%;
+}
 /* ----------------------- produtos.html */
 #area_produtos {
     display: flex;
