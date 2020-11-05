@@ -46,18 +46,18 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
         <!------------------------------------- contatos ------------------------------------>
         <section>
             <div class="container my-3 p-3 bg-light rounded shadow-lg">
-                <section class="container d-flex justify-content-space-betwen" id="contatos">
+                <section class="container">
                     <div class="row">
-                        <div class="col-sm bg-secondary" id="contato">
-                            <div class="row d-flex justify-content-between align-items-center ">
-                                <img class="col-sm" src="./img/email.png" width="10px">
-                                <p class="col-sm">contato@fullstackeletro.com</p>
+                        <div class="col-6" id="contato">
+                            <div class="text-center">
+                                <img class="mt-2" src="./img/email.png" height="30px">
+                                <p>contato@fullstackeletro.com</p>
                             </div>
                         </div>
-                        <div class="col-sm bg-danger" id="contato">
-                            <div class="row d-flex justify-content-between align-items-center ">
-                                <img class="col-sm" src="./img/whatsapp.png" width="10px">
-                                <p class="col-sm">(11) 9999-9999</p>
+                        <div class="col-6" id="contato">
+                            <div class="text-center">
+                                <img src="./img/whatsapp.png" height="40px">
+                                <p class="">(11) 9999-9999</p>
                             </div>
                         </div>
                     </div>
@@ -117,6 +117,11 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
     <?php
     include('rodape.html');
     ?>
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
 
 
     <script src="./Js/script.js"></script>
