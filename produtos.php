@@ -65,8 +65,8 @@ if (!$conn) {
                 while ($rows = $result->fetch_assoc()) {
             ?>
 
-                    <div class="boxProduto col-lg-3 col-md-4 col-sm-6 col-xs-9 text-center h-20" id="<?php echo $rows["categoria"]; ?>">
-                        <img height="100%" src="<?php echo $rows["imagem"]; ?>" onclick="destaque(this)">
+                    <div class="boxProduto col-lg-3 col-md-4 col-sm-6 col-xs-9 text-center" id="<?php echo $rows["categoria"]; ?>">
+                        <img height="120" src="<?php echo $rows["imagem"]; ?>" onclick="destaque(this)">
                         <p class="border-bottom"><?php echo $rows["descricao"]; ?></p>
                         <p><?php echo $rows["preco"]; ?></p>
                         <p class="text-danger"><?php echo $rows["precofinal"]; ?></p>

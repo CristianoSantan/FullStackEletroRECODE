@@ -41,7 +41,9 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
     <!----------------------------------------- Cabeçalho ----------------------------------->
     <main>
         <header class="container-fluid pl-4 bg-secondary text-white">
-            <h2>Contato</h2>
+            <div class="container">
+                <h2>Contato</h2>
+            </div>
         </header>
         <!------------------------------------- contatos ------------------------------------>
         <section>
