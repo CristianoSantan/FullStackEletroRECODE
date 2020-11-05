@@ -67,9 +67,9 @@ if (!$conn) {
 
                     <div class="boxProduto col-lg-3 col-md-4 col-sm-6 col-xs-9 text-center" id="<?php echo $rows["categoria"]; ?>">
                         <img height="120" src="<?php echo $rows["imagem"]; ?>" onclick="destaque(this)">
-                        <p class="border-bottom"><?php echo $rows["descricao"]; ?></p>
-                        <p><?php echo $rows["preco"]; ?></p>
-                        <p class="text-danger"><?php echo $rows["precofinal"]; ?></p>
+                        <p class="border-bottom mb-0"><?php echo $rows["descricao"]; ?></p>
+                        <p class="mb-0"><s><?php echo $rows["preco"]; ?></s></p>
+                        <p class="mb-0" style="font-size: 1.4rem; color: red;"><?php echo $rows["precofinal"]; ?></p>
                     </div>
 
             <?php
