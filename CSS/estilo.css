@@ -1,10 +1,10 @@
-/* ---------------------     Resete da pagina */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-body {
+/* body {
     font-size: 0;
     display: flex;
     flex-direction: column;
@@ -12,12 +12,12 @@ body {
 main {
     font-size: 1.6rem;
     min-height: calc(100vh - 180px - 60px);
-}
-.bemvindo {
+} */
+/* .bemvindo {
     margin-top: 50px;
-}
+} */
 /* ------------------------------  Menu */
-.menu {
+/* .menu {
     z-index: 1;
     width: 100%;
     background-color: red;
@@ -34,15 +34,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 .menu a:hover{
     background-color: rgb(99, 99, 99);
 }
 .menu a img {
     height: 48px;
-}
+} */
 /* ------------------- Cabeçalho pagina */
-header {
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-around;
+}
+
+/* header {
     padding: 0px;
     margin: 0px;
     height: 45px;
@@ -54,9 +62,9 @@ header h2 {
     font-size: 1.5rem;
     margin: auto 10px;
     color: white;
-}
+} */
 /* -------------------------- index.html */
-.pagina-inicial {
+/* .pagina-inicial {
     background-image: url("../img/pexels-pixabay-459654.jpg");
     background-size: 100%;
     padding-left: 50px;
@@ -66,9 +74,9 @@ header h2 {
 }
 .telas img {
     width: 40%;
-}
+} */
 /* ----------------------- produtos.html */
-#area_produtos {
+/* #area_produtos {
     display: flex;
 }
 .categorias {
@@ -87,15 +95,15 @@ header h2 {
 .categorias li:hover {
     background-color: rgb(99, 99, 99);
     color: white;
-}
-.produtos {
+} */
+/* .produtos {
     padding: 60px 0px;
     width: 85%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} */
 .card {
     margin: 10px 0;
     padding: 0 20px;
@@ -126,7 +134,7 @@ header h2 {
     margin-bottom: 20px;
 }
 /* ---------------------  Nossas lojas */
-.nossas_lojas {
+/* .nossas_lojas {
     margin-top: 80px;
     width: 100%;
 }
@@ -135,9 +143,9 @@ header h2 {
     margin: 0 30px;
     width: 25%;
     float: left;
-}
+} */
 /* -------------------  contato.html  */
-#contatos {
+/* #contatos {
     font-size: 0;
     height: 100px;
     width: 80%;
@@ -160,10 +168,10 @@ header h2 {
     text-align: center;
 }
 fieldset {
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 /* ---------------------------- footer */
-#footer {
+/* #footer {
     padding-top: 30px;
     background-color: rgb(99, 99, 99);
     font-size: 1.25rem;
@@ -174,5 +182,5 @@ fieldset {
     width: 300px; 
 }
 #formas_pagamento {
-    color: white;
-}
+    color: white; */
+} 
