@@ -52,7 +52,7 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
                     <div class="row">
                         <div class="col-6" id="contato">
                             <div class="text-center">
-                                <img class="mt-2" src="./img/email.png" height="30px">
+                                <img class="my-2" src="./img/email.png" height="25px">
                                 <p>contato@fullstackeletro.com</p>
                             </div>
                         </div>
